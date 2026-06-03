@@ -1,0 +1,398 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Esmin Wakerkwa | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <div class="logo">
+        <img src="./static/image/esmin.png" alt="Logo" class="esmin-logo">
+        <span>Esmin Wakerkwa</span>
+    </div>
+
+    <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#keterampilan">Keterampilan</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+    </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="beranda" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <h1>
+                Halo, Saya <br>
+                <span>Esmin Wakerkwa</span>
+            </h1>
+
+            <h3>Mahasiswa Informatika & Web Developer</h3>
+
+            <p>
+                👋 Halo, saya Esmin Wakerkwa. Mahasiswa Informatika
+                Universitas Ottow Geissler Papua yang fokus belajar
+                dan mengembangkan keterampilan Web Development.
+
+                Saat ini saya aktif belajar bersama komunitas
+                SaCode Papua untuk meningkatkan kemampuan
+                HTML, CSS, JavaScript, Bootstrap, Laravel,
+                dan Python.
+            </p>
+
+            <div class="hero-btn">
+                <a href="#portofolio" class="btn">
+                    Lihat Portofolio
+                </a>
+
+                <a href="#kontak" class="btn-outline">
+                    Hubungi Saya
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="./static/image/esmin.png" alt="Esmin Wakerkwa" class="esmin-logo">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= TENTANG ================= -->
+<section id="tentang">
+
+    <h2 class="title">Tentang Saya</h2>
+
+    <div class="about">
+
+        <h3>Saya Belajar Coding di Komunitas SaCode Papua</h3>
+
+        <p>
+            Sejak tahun 2024 saya aktif mempelajari dunia pemrograman,
+            khususnya Web Development.
+
+            Saya memiliki minat dalam pengembangan website modern
+            menggunakan HTML, CSS, JavaScript, Bootstrap,
+            Laravel, dan Python.
+
+            Komunitas SaCode Papua menjadi tempat saya belajar,
+            bertumbuh, dan berkolaborasi bersama programmer muda Papua.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= KETERAMPILAN ================= -->
+<section id="keterampilan">
+
+    <h2 class="title">Keterampilan</h2>
+
+    <div class="tab-menu">
+
+        <button class="tab-btn active"
+            onclick="showTab('pendidikan',this)">
+            Pendidikan
+        </button>
+
+        <button class="tab-btn"
+            onclick="showTab('keahlian',this)">
+            Keahlian
+        </button>
+
+        <button class="tab-btn"
+            onclick="showTab('pengalaman',this)">
+            Pengalaman
+        </button>
+
+    </div>
+
+    <div class="tab-container">
+
+        <!-- Pendidikan -->
+        <div id="pendidikan" class="tab-content active">
+
+            <h3>Riwayat Pendidikan</h3>
+
+            <p>SD Negeri 1 Yalipak</p>
+            <p>SMP Negeri 4 Pirime</p>
+            <p>SMK YSO Ninabua Wamena</p>
+            <p>Universitas Ottow Geissler Papua</p>
+
+        </div>
+
+        <!-- Keahlian -->
+        <div id="keahlian" class="tab-content">
+
+            <h4>HTML 90%</h4>
+            <div class="progress">
+                <div class="bar html"></div>
+            </div>
+
+            <h4>CSS 90%</h4>
+            <div class="progress">
+                <div class="bar css"></div>
+            </div>
+
+            <h4>JavaScript 65%</h4>
+            <div class="progress">
+                <div class="bar js"></div>
+            </div>
+
+            <h4>Bootstrap 85%</h4>
+            <div class="progress">
+                <div class="bar bootstrap"></div>
+            </div>
+
+            <h4>Laravel 90%</h4>
+            <div class="progress">
+                <div class="bar laravel"></div>
+            </div>
+
+            <h4>Python 30%</h4>
+            <div class="progress">
+                <div class="bar python"></div>
+            </div>
+
+        </div>
+
+        <!-- Pengalaman -->
+        <div id="pengalaman" class="tab-content">
+
+            <ul>
+                <li>Membangun Website Sekolah</li>
+                <li>Membuat Landing Page UMKM</li>
+                <li>Membuat Sistem Informasi Berbasis Laravel</li>
+                <li>Belajar Web Development Secara Mandiri</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PORTOFOLIO ================= -->
+<section id="portofolio">
+
+    <h2 class="title">Portofolio</h2>
+
+    <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="card">
+
+            <img src="./static/image/edukasicode.png"
+                alt="Website Sekolah">
+
+            <div class="card-body">
+
+                <h3>Website Sekolah</h3>
+
+                <p>
+                    Website profil sekolah yang menampilkan
+                    informasi sekolah, berita, galeri,
+                    dan kontak.
+                </p>
+
+                <div class="project-links">
+
+                    <a href="#"
+                        target="_blank"
+                        class="demo-btn">
+                        Live Demo
+                    </a>
+
+                    <a href="#"
+                        target="_blank"
+                        class="code-btn">
+                        Source Code
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+
+            <img src="./static/image/edukasicode.png"
+                alt="Landing Page">
+
+            <div class="card-body">
+
+                <h3>Landing Page UMKM</h3>
+
+                <p>
+                    Landing page modern untuk promosi
+                    produk UMKM dengan tampilan responsif.
+                </p>
+
+                <div class="project-links">
+
+                    <a href="#"
+                        target="_blank"
+                        class="demo-btn">
+                        Live Demo
+                    </a>
+
+                    <a href="#"
+                        target="_blank"
+                        class="code-btn">
+                        Source Code
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+
+            <img src="./static/image/edukasicode.png"
+                alt="Sistem Informasi">
+
+            <div class="card-body">
+
+                <h3>Sistem Informasi</h3>
+
+                <p>
+                    Sistem informasi berbasis Laravel
+                    untuk mengelola data pengguna
+                    dan laporan.
+                </p>
+
+                <div class="project-links">
+
+                    <a href="#"
+                        target="_blank"
+                        class="demo-btn">
+                        Live Demo
+                    </a>
+
+                    <a href="#"
+                        target="_blank"
+                        class="code-btn">
+                        Source Code
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= KONTAK ================= -->
+<section id="kontak">
+
+    <h2 class="title">Kontak Saya</h2>
+
+    <form class="contact-form">
+
+        <input type="text"
+            placeholder="Nama Lengkap"
+            required>
+
+        <input type="email"
+            placeholder="Email"
+            required>
+
+        <textarea rows="5"
+            placeholder="Tulis pesan Anda..."
+            required></textarea>
+
+        <button type="submit">
+            Kirim Pesan
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <div class="footer-logo">
+        <img src="./static/image/esmin.png" class="esmin-logo">
+    </div>
+
+    <h3>Esmin Wakerkwa</h3>
+
+    <p>
+        Mahasiswa Informatika & Web Developer
+    </p>
+
+    <div class="footer-social">
+
+        <a href="#">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+    </div>
+
+    <p>
+        © 2026 Esmin Wakerkwa Portfolio.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- Floating Button -->
+<div class="floating">
+
+    <a href="#" class="wa">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="#" class="git">
+        <i class="fab fa-github"></i>
+    </a>
+
+</div>
+
+<script src="./static/js/javascript.js"></script>
+
+</body>
+</html>
+```
