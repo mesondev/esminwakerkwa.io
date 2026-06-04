@@ -8,10 +8,16 @@
 
 .esmin-logo{
     width:100px;
-    height:100px;
+    height:auto;
     border-radius:30%;
-    object-fit:cover;
+}
 
+.hero-photo{
+    width:100%;
+    max-width:380px;
+    height:auto;
+    object-fit:cover;
+    display:block;
 }
 
 html{
@@ -361,8 +367,9 @@ section:not(:last-of-type)::before{
 
 .card img{
     width:100%;
-    height:220px;
+    aspect-ratio:16/9;
     object-fit:cover;
+    display:block;
 }
 
 .card-body{
@@ -499,3 +506,4 @@ footer{
         flex-direction:column;
     }
 }
+
